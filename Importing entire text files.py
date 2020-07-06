@@ -17,7 +17,7 @@ Check again that the file is closed as you did above."""
 file = open('moby_dick.txt' ,mode= 'r') # mode = 'r' for read only
 
 # Print it
-print(file.read) 
+print(file.read()) 
 
 # Check whether file is closed
 print(file.closed)
